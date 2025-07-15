@@ -19,7 +19,7 @@ namespace ConsoleApp4
       Add2(x, y);
       Console.WriteLine($"hasil perkalian nya adalah {times2}");
       Overloading();
-      Console.WriteLine($"hasil tambah 10.5 dan 25.6 {Add3(10.5f, 25.6f)}");
+      Console.WriteLine($"hasil tambah 10.5 dan 25.6 adalah {Add3(10.5f, 25.6f)}");
     }
     static int Add(int a, int b)
     {
