@@ -1,35 +1,82 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+
+// modular or procedural programming
+
+// static void Main(string[] args)
+// {
+//   int n;
+//   Console.WriteLine("Enter a Positive Integer");
+//   n = Convert.ToInt32(Console.ReadLine());
+//   bool isPrima = isPrima(n);
+//   if (isPrima)
+//   {
+//     Console.WriteLine($"{n} is a bilangan prima");
+//   }
+//   else
+//   {
+//     Console.WriteLine($"{n} is not a bilangan prima");
+//   }
+// }
+
+// class Programs
+// {
+//   private static bool isPrima(int n)
+//   {
+//     bool isPrima = true;
+//     // 0 and 1 tidak bilangan prima
+//     if (n == 1 || n == 0)
+//     {
+//       isPrima = false;
+//     }
+//     else
+//     {
+//       for (int i = 2; i <= n / 2; ++i)
+//       {
+//         if (n % i == 0)
+//         {
+//           isPrima = false;
+//           break;
+//         }
+//       }
+//     }
+//     return isPrima;
+//   }
+// }
+
+
+
 // monolithic programming
 
-int i, n;
-bool isPrime = true;
-Console.WriteLine("Enter a Positive Integer: ");
-n = Convert.ToInt32(Console.ReadLine());
+// int i, n;
+// bool isPrima = true;
+// Console.WriteLine("Enter a Positive Integer: ");
+// n = Convert.ToInt32(Console.ReadLine());
 
-// 0 and 1 are not prime numbers
-if (n == 0 || n == 1)
-{
-  isPrime = false;
-}
-else
-{
-  for (i = 2; i <= n / 2; ++i)
-  {
-    if (n % i == 0)
-    {
-      isPrime = false;
-      break;
-    }
-  }
-}
-if (isPrime)
-{
-  Console.WriteLine($"{n} is a Prime Number");
-}
-else
-{
-  Console.WriteLine($"{n} is not a Prime Number");
-}
+// 0 and 1 bukan bilangan prima
+// if (n == 0 || n == 1)
+// {
+//   isPrima = false;
+// }
+// else
+// {
+//   for (i = 2; i <= n / 2; ++i)
+//   {
+//     if (n % i == 0)
+//     {
+//       isPrima = false;
+//       break;
+//     }
+//   }
+// }
+// if (isPrima)
+// {
+//   Console.WriteLine($"{n} is a Prime Number");
+// }
+// else
+// {
+//   Console.WriteLine($"{n} is not a Prime Number");
+// }
 
 // type basic
 // string pesan = "Tahun Lahir";
